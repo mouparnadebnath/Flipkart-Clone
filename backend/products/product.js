@@ -1,146 +1,181 @@
 export const products = [
-    { 
-        id: 'product1',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
-        title: {
-            shortTitle: 'Home & Kitchen',
-            longTitle: 'Pigeon FAVOURITE Electric Kettle  (1.5 L, Silver, Black)'
-        }, 
-        price: {
-            mrp: 1195,
-            cost: 625,
-            discount: '47%'
-        },
-        quantity: 1,
-        description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
-        discount: 'Extra 10% Off', 
-        tagline: 'Deal of the day' 
+  {
+    id: "product1",
+    url: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTqFMy0JpSxO2FMuK7wDXgRbIGB0I6JNNNyIM3MlqEUBqxL56184g6TgzTX6jxeYxf8u79XumobH7mRZ1IaK25jzpgUUNdhc22pHPKAVhhYPFXcyLq3JGTicr5Juxjh9Hu3VfztM-OAgSo&usqp=CAc",
+    detailUrl: "https://m.media-amazon.com/images/I/61uCr9G6hIL._SX679_.jpg",
+
+    title: {
+      shortTitle: "Home & Kitchen",
+      longTitle:
+        "PHILIPS Air Fryer HD9200/90, uses up to 90% less fat, 1400W, 4.1 Liter, with Rapid Air Technology (Black), Large",
     },
-    { 
-        id: 'product2',
-        url: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70',
-        title: {
-            shortTitle: 'Sandwich Makers',
-            longTitle: 'Flipkart SmartBuy Sandwich 01 Grill  (Black)'
-        },
-        price: {
-            mrp: 1499,
-            cost: 899,
-            discount: '40%'
-        },
-        quantity: 1,
-        description: 'This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better',
-        discount: 'From 99+5% Off', 
-        tagline: 'Pestige, Nova & more' 
+
+    price: {
+      mrp: 9995,
+      cost: 6999,
+      discount: "30%",
     },
-    { 
-        id: 'product3',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
-        title: {
-            shortTitle: 'Fitness Gear',
-            longTitle: 'AJRO DEAL New Adjustable Single Resistance Tube (Multicolor) Resistance Tube  (Multicolor)'
-        }, 
-        price: {
-            mrp: 499,
-            cost: 166,
-            discount: '66%'
-        },
-        quantity: 1,
-        description: 'This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.',
-        discount: 'Upto 70% Off', 
-        tagline: 'Deal of the Day' 
+
+    quantity: 1,
+    description:
+      "Philips Airfryer HD9200/90 (Large, 4.1 L) lets you cook great tasting food with up to 90% less fat* Patented Rapid Air technology with unique starfish design pan ensures evenly fried results without flipping the food. Fry. Bake. Grill. Roast. And even reheat! 60 minutes timer with auto off. Wide temperature control from 80°C to 200 °C. Extra-long 1.8 m cord length for easy placement in your kitchen. Dishwasher-safe and Easy-to-Clean. Not just fries, now make aloo tikkis, roast chicken, grilled vegetables, chocolate cakes, muffins and many more dishes.",
+    discount: "Extra 10% Off",
+    tagline: "Deal of the day",
+  },
+  {
+    id: "product2",
+    url: "https://seed2plant.in/cdn/shop/files/Thailand_mango.jpg?v=1702326017&width=150",
+    detailUrl:
+      "https://seed2plant.in/cdn/shop/files/thailand-mango-giant-dream-plant.jpg?v=1704002137&width=750",
+
+    title: Object,
+    shortTitle: "Plants",
+    longTitle: "Thailand All Season Mango Grafted Live Plant",
+
+    price: Object,
+    mrp: 1094,
+    cost: 895,
+    discount: "40%",
+    quantity: 1,
+    description:
+      "Plant Type-Grafted Plant Common Name-Mamuang in Thai Botanical Name-Mangifera indica Bloom Time/Fruiting-2-3 Months Maintenance Required-Easy Can be grown on Terrace-Yes",
+    discount: "From 10% Off",
+    tagline: "Fruits,Flowers & more",
+  },
+  {
+    id: "product3",
+    url: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ1qt48TAoaMpbpOWJbYNYZcThs1xRKBlbCOIsR1WSBn3Y7ixqPhJNWn1jPRpGMFI4sMdrl4wmhHidHChlrHJULDHJytZc1s0015akuoglPYMte6LkMHMb-&usqp=CAc",
+    detailUrl:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//cultgear-content/da3n5czPdEyVCdpXojirFeAM",
+
+    title: {
+      shortTitle: "Sports Shoes",
+      longTitle: "Avant mens rainbow sports shoe",
     },
-    { 
-        id: 'product4',
-        url: 'https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70', 
-        detailUrl: 'https://m.media-amazon.com/images/I/61zM1UkYDGL._SX679_.jpg',
-        title: {
-            shortTitle: 'Smart Watches',
-            longTitle: 'Molife Sense 500 Smartwatch  (Black Strap, Freesize)',
-        }, 
-        price: {
-            mrp: 6999,
-            cost: 4049,
-            discount: '42%'
-        },
-        quantity: 1,
-        description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
-        discount: 'Grab Now', 
-        tagline: 'Best Seller' 
+
+    price: {
+      mrp: 1949,
+      cost: 1469,
+      discount: "25%",
     },
-    { 
-        id: 'product5',
-        url: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70', 
-        title: {
-            shortTitle: 'Trimmers, Dryers & more',
-            longTitle: 'Nova Professional NHP 8220 Hair Dryer  (1800 W, Multicolor)'
-        }, 
-        price: {
-            mrp: 1899,
-            cost: 1124,
-            discount: '40%'
-        },
-        quantity: 1,
-        description: '',
-        discount: 'From ₹499', 
-        tagline: 'Kubra, Nova & more' 
+    quantity: 1,
+    description: "100% pure rubber outsole",
+    discount: "Upto 70% Off",
+    tagline: "Deal of the Day",
+  },
+  {
+    id: "product4",
+    url: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSBK10-GPF1BjGLbecgPjBpQy-S8V9xXhE3v0LfslmM1gELvICx0RQ54WGTKRIfH4pKcwmt2TNchruRKnXhqxudwBG3850YIyTNaydcYkl0cCUxFANxkOPlOgU6tBso3gXSiAcPbVw&usqp=CAc",
+    detailUrl: "https://m.media-amazon.com/images/I/61zM1UkYDGL._SX679_.jpg",
+
+    title: {
+      shortTitle: "Smart Watches",
+      longTitle:
+        "boAt Wave Call 2 with 1.83 HD Display, Advanced BT Calling, DIY Watch Face Studio, Coins, 700+Active Modes, Live Cricket Scores, Smart Watch for Men & Women(Cool Grey)",
     },
-    { 
-        id: 'product6',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70', 
-        title: {
-            shortTitle: 'Table Fans',
-            longTitle: 'Portable 300 mm Ultra High Speed 3 Blade Table Fan  (Black, Pack of 1)'
-        }, 
-        price: {
-            mrp: 2250,
-            cost: 1199,
-            discount: '46%'
-        },
-        quantity: 1,
-        description: 'Table Fan. Perfect size fan for use on a table, desk or in an RV. Whisper quiet, powerful airflow and reliable operation in a compact 6" size. Two adjustable speeds to customize airflow: high or low settings. Tough break-resistant ABS plastic blades. ',
-        discount: 'Minimum 40% Off', 
-        tagline: 'Top Selling' 
+    price: {
+      mrp: 6999,
+      cost: 1099,
+      discount: "84%",
     },
-    { 
-        id: 'product7',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70', 
-        title: {
-            shortTitle: 'Headphones',
-            longTitle: 'boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluetooth Headset '
-        }, 
-        price: {
-            mrp: 2990,
-            cost: 1199,
-            discount: '59%'
-        },
-        quantity: 1,
-        description: 'Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.',
-        discount: 'Minimum 50% Off', 
-        tagline: 'Grab Now!' 
+    quantity: 1,
+    description:
+      "Screen: 1.83-inch HD display with a square dial offers a full capacitive touch experience, allowing you to easily take control. Peak Brightness: 550 Nits, AMOLED Display: NO",
+    discount: "Grab Now",
+    tagline: "Best Seller",
+  },
+  {
+    id: "product5",
+    url: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSW5ETIq3ud_unfq3OwdCHHCZZj4To1KuH3Um_KzBM8NmaYTLzAXAJm9LN4ynjLnbNWb2i2f0vN30gyXtqPcCgoONPCmqYIIHOwUJ97_r4poR6FKw3mvg",
+    detailUrl:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQxwHY9kcROcsg-bf11Q5DOt-qiA7OFbx76_QNz06S4HNaDHhx6i4oYGZ9lF6t623AZceyAeWaj1n5SE79IP4uFxAoC76vHoqTbqa4oMHznPd6Lz-Wk0OVL",
+
+    title: {
+      shortTitle: "Beauty products",
+      longTitle: "SUGAR Complete Makeup Kit - Fair,(7 pcs)",
     },
-    { 
-        id: 'product8',
-        url: 'https://rukminim2.flixcart.com/image/416/416/xif0q…g/-original-imagxaqtqng2hpxn.jpeg?q=70',
-        detailUrl: 'https://rukminim2.flixcart.com/image/416/416/xif0q…g/-original-imagxaqtqng2hpxn.jpeg?q=70', 
-        title: {
-            shortTitle: 'Mobiles',
-            longTitle: 'REDMI 12 5G (Jade Black, 128 GB)  (6 GB RAM) '
-        }, 
-        price: {
-            mrp: 17999,
-            cost: 12999,
-            discount: '27%'
-        },
-        quantity: 1,
-        description: 'Redmi 12 5G mobile comes with a 90 Hz refresh rate 6.79-inch touchscreen display offering a resolution of 2460x1080 pixels (FHD+). The display sports Gorilla Glass for protection. Redmi 12 5G is powered by an octa-core Qualcomm Snapdragon 4 Gen 2 processor. It comes with 8GB RAM. The Redmi 12 5G runs Android 13 and is powered by a 5000mAh non-removable battery. The Redmi 12 5G supports proprietary fast charging.',
-        discount: '', 
-        tagline: 'Grab Now' 
+
+    price: {
+      mrp: 6208,
+      cost: 3973,
+      discount: "36%",
     },
+    quantity: 1,
+    description: "",
+    discount: "From ₹499",
+    tagline: "Cosmetics",
+  },
+  {
+    id: "product6",
+    url: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTA8hwTmJRwZzjvwHsfPN1qyZzdxUsodaIE_uHpFKEqBMiBoCIslxB6bSlBtarVbUQ4QrOtq1dt1s0ZuHZJAg2AS9rhlrYyHTLFEyAvPbWJXiCRggafrcrfVUX_QTRNtkyBINyspLML&usqp=CAc",
+    detailUrl:
+      "https://homegeek.in/cdn/shop/files/61xlyxpkvul-sl1500-1000x1000_1800x1800.jpg?v=1711613656",
+
+    title: {
+      shortTitle: "Smart home gadgets",
+      longTitle:
+        "15W Wireless Charger Bluetooth Speaker Alarm Clock Fast Charger",
+    },
+    price: {
+      mrp: 2999,
+      cost: 1599,
+      discount: "47%",
+    },
+    quantity: 1,
+    description:
+      "Upgrade your charging experience and enhance your daily routine with the Wireless Charger with Bluetooth Speaker and RGB Lamp. Say goodbye to cluttered bedside tables and hello to convenience and versatility.",
+    discount: "Minimum 40% Off",
+    tagline: "Top Selling",
+  },
+  {
+    id: "product7",
+    url: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT5VxBIStZ8IkbhB0mtKUxKyFNWg39w8xaTJC_NZVyeEXOF_plKBUaJV-H8hjpJKQCgJaJ8uo6FZ1qvCGO0FlY6kqvZmStfr4gjKRRIiUrrpcb7ZzqOXSq1HwgbCnPvIOIfHkPhyUDVRA&usqp=CAc",
+    detailUrl:
+      "https://www.gonoise.com/cdn/shop/files/8_d1247e85-5aef-485e-93c7-9e4a23ac9bae.png?v=1693549517",
+
+    title: {
+      shortTitle: "Buds",
+      longTitle:
+        "Noise Buds VS102 Pro with ANC (25dB), 70 Hours Playtime, and ENC with Quad Mic Bluetooth Headset  (Glacier Blue, In the Ear)",
+    },
+
+    price: {
+      mrp: 4999,
+      cost: 1299,
+      discount: "67%",
+    },
+    quantity: 1,
+    description:
+      "Let music brighten up your mood anytime, anywhere with the Buds VS102 Plus. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.",
+    discount: "Minimum 50% Off",
+    tagline: "Grab Now!",
+  },
+  {
+    id: "product8",
+
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlw789-8emTfOjjavFLBXhirVCA0O2DJ4UZmRfSOpOYdh9y0AnF-5w&usqp=CAE&s",
+
+    detailUrl:
+      "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/martin/Martin-specs.png",
+    title: {
+      shortTitle: "  Mobiles",
+      longTitle: "    OnePlus 12R Genshin Impact Edition",
+    },
+
+    price: {
+      cost: 49999,
+    },
+
+    quantity: 1,
+
+    description:
+      "Size: 17.22 centimeters - 6.78 (measured diagonally from corner to corner) Resolution: 2780 x 1264 pixels, 450 ppi Screen-to-body Ratio: 94.2% Aspect Ratio:19.8:9 Refresh Rate: 1-120 Hz dynamic Panel Type: AMOLED ProXDR Display with LTPO4.0 Touch Response Rate: Up to 1000 Hz Pulse-Width Modulation: 2160 Hz Support sRGB, Display P3, 10-bit Color Depth, HDR10+ Cover Glass: Corning® Gorilla® Glass Victus 2 ",
+
+    tagline: "Grab Now",
+
+    discount: " upto 20% off",
+  },
+  
+];
+
 ];
