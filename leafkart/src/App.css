@@ -1,0 +1,57 @@
+
+/* navbar.jsx */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+ .dropdown-menu{
+    box-sizing: border-box;
+    width: 'auto';
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+@keyframes chevron{
+  from{rotate: 0deg;}
+  to{rotate: 180deg;}
+}
+
+.dropdown:hover .bii{
+  cursor: pointer;
+  animation-name: chevron;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+}
+
+
+
+/* login.jsx */
+@keyframes chevron{
+    from{rotate: 0deg;}
+    to{rotate: 180deg;}
+}
+.bi:hover{
+cursor: pointer;
+animation-name: chevron;
+animation-duration: 0.5s;
+animation-fill-mode: both;
+
+}
+
+
+/* Details.jsx */
+#input-with-icon-textfield input[type="number"]::-webkit-outer-spin-button,
+#input-with-icon-textfield input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+  margin: 0;
+}
